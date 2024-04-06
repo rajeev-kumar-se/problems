@@ -29,7 +29,7 @@ And Now I will give you the input and output description.
 "range-gcd-point-update" : Done,
 "four-target-gcd",
 "max-gcd-subarray" : Done,
-"subarray-with-k-gcd",
+"subarray-with-k-gcd" : Done,
 "max-gcd-k-size-subarray",
 "max-gcd-subsequence",
 "max-gcd-k-size-subsequence",
