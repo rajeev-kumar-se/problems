@@ -23,7 +23,7 @@ And Now I will give you the input and output description.
 
 <!-- Tracker -->
 
-"n-gcd",
+"n-gcd" : Done,
 "gcd-sum" : Done,
 "range-gcd" : Done, 
 "range-gcd-point-update" : Done,
@@ -32,5 +32,5 @@ And Now I will give you the input and output description.
 "subarray-with-k-gcd" : Done,
 "max-gcd-k-size-subarray",
 "max-gcd-subsequence",
-"max-gcd-k-size-subsequence",
-"subsequence-with-k-gcd"
+"max-gcd-k-size-subsequence" : Done,
+"subsequence-with-k-gcd" : Done
