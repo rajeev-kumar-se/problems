@@ -42,10 +42,6 @@ int dxk[8] ={2,2,-2,-2,1,1,-1,-1};
 int dyk[8] ={1,-1,1,-1,2,-2,2,-2};
 // Solve
 void seive(){}
-// =========================================
-string PROBLEM = "$file_name";
-std::ofstream fout("./"+PROBLEM+".in");
-// ========WRITE TEST CASE HERE=============
 // Debug 2
 template <typename T=ll> T rint(ll a, ll b) { return uniform_int_distribution<T>(a, b)(mt_rng);}
 vector<ll> rvec(int N,int l, int r) { vector<ll> v(N); generate(v.begin(), v.end(), [&](){ return rint<ll>(l, r); }); return v;}
@@ -148,6 +144,11 @@ void pLR(const vector<pair<T, T>>& queries) {
         cout << "(" << query.first << ", " << query.second << ")\n";
     }
 }
+
+// =========================================
+string PROBLEM = "$file_name";
+ofstream fout("./"+PROBLEM+".in");
+// ========WRITE TEST CASE HERE=============
 
 void writer(){
     // use: fout
