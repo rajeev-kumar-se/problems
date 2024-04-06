@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     srand(time(0));
     ofstream inputFile("in.txt");
-    int t = rand() % 10 + 1; // Generate random number of test cases between 1 and 10
+    int t = 10 ;
     inputFile << t << endl;
     while (t--) {
         int n = rand() % 100 + 1; // Generate random value of n between 1 and 100
