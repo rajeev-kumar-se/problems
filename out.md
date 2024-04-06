@@ -20,3 +20,17 @@ freopen("out.txt", "w", stdout);
 // #endif 
 
 And Now I will give you the input and output description.
+
+<!-- Tracker -->
+
+"n-gcd",
+"gcd-sum",
+"range-gcd",
+"range-gcd-point-update",
+"four-target-gcd",
+"max-gcd-subarray",
+"subarray-with-k-gcd",
+"max-gcd-k-size-subarray",
+"max-gcd-subsequence",
+"max-gcd-k-size-subsequence",
+"subsequence-with-k-gcd"

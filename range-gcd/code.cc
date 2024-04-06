@@ -33,7 +33,7 @@ int query(int L, int R) {
     return gcd(sparse_table[L][j], sparse_table[R - (1 << j) + 1][j]);
 }
 
-void solve1() {
+void solve() {
     int N, Q;
     cin >> N >> Q;
     vector<int> arr(N);
@@ -46,37 +46,18 @@ void solve1() {
     for (int q = 0; q < Q; ++q) {
         int L, R;
         cin >> L >> R;
-        cout << query(L - 1, R - 1) << endl;
-    }
-}
-
-void solve() {
-    int N, Q;
-    cin >> N >> Q;
-    vector<int> arr(N);
-    for (int i = 0; i < N; ++i) {
-        cin >> arr[i];
-    }
-    vector<int> prefix_gcd(N + 1);
-    prefix_gcd[0] = 0;
-    for (int i = 1; i <= N; ++i) {
-        prefix_gcd[i] = gcd(prefix_gcd[i - 1], arr[i - 1]);
-    }
-    for (int q = 0; q < Q; ++q) {
-        int L, R;
-        cin >> L >> R;
-        int result = gcd(prefix_gcd[R], prefix_gcd[L - 1]);
-        cout << result << endl;
+        cout << query(L, R) << endl;
     }
 }
 
 int main() {
-    #ifndef ONLINE_JUDGE
+    // #ifndef ONLINE_JUDGE
     // For getting input from in.txt file
-    // freopen("in.txt", "r", stdin);
+    freopen("in.txt", "r", stdin);
     // Printing the Output to out.txt file
-    // freopen("out.txt", "w", stdout);
-    #endif
-    solve();
+    freopen("out.txt", "w", stdout);
+    // #endif
+    int t; cin>>t;
+    while(t--)solve();
     return 0;
 }
