@@ -31,6 +31,6 @@ And Now I will give you the input and output description.
 "max-gcd-subarray" : Done,
 "subarray-with-k-gcd" : Done,
 "max-gcd-k-size-subarray",
-"max-gcd-subsequence",
+"max-gcd-subsequence" : Done,
 "max-gcd-k-size-subsequence" : Done,
 "subsequence-with-k-gcd" : Done
