@@ -4,11 +4,12 @@ https://www.geeksforgeeks.org/inputoutput-external-file-cc-java-python-competiti
 
 I will give you a competitive programming problem, you need to generate several files.
 First solution.cc and Second test_case_generator.cc file.
-By default generate both files to handle multiple testcase(min=10, max=20) both in solution.cc and test_case_generator.cc.
+By default generate both files to handle multiple testcase both in solution.cc and test_case_generator.cc.
 
 Means for the first file you should read the no of test case first and solve for each test case using solve() method to individully solve each test case.
  
-For the second file test_case_generator.cc you should write no of testcase first and then individual cases to in.txt file in present in current directory.
+For the second file test_case_generator.cc you should write no of testcase = 20 first and then individual cases to in.txt file in present in current directory.
+And random integers should be less than 1000 and use uniform int dist to generate random numbers.
 
 You can use something like this in solution.cc code.
 // #ifndef ONLINE_JUDGE 
