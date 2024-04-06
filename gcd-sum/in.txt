@@ -1,21 +1,10 @@
-20
-975 469
-817 477
-579 54
-897 338
-940 524
-780 862
-714 883
-858 610
-750 833
-327 673
-116 132
-145 486
-514 486
-284 790
-51 443
-57 3
-432 292
-225 778
-907 654
-467 329
+2
+20 28
+60 36
+
+Input: a = 20, b = 28
+Output: 4
+Explanation: The factors of 20 are 1, 2, 4, 5, 10 and 20. The factors of 28 are 1, 2, 4, 7, 14 and 28. Among these factors, 1, 2 and 4 are the common factors of both 20 and 28. The greatest among the common factors is 4.
+
+Input: a = 60, b = 36
+Output: 12

@@ -24,7 +24,7 @@ And Now I will give you the input and output description.
 <!-- Tracker -->
 
 "n-gcd",
-"gcd-sum",
+"gcd-sum" : Done,
 "range-gcd" : Done, 
 "range-gcd-point-update" : Done,
 "four-target-gcd",
