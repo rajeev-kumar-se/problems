@@ -21,7 +21,7 @@ for problem_id in problem_ids:
     os.makedirs(folder_name, exist_ok=True)
 
     # Create empty code.cpp file
-    with open(os.path.join(folder_name, 'code.cpp'), 'w'):
+    with open(os.path.join(folder_name, 'code.cc'), 'w'):
         pass
 
     # Create empty in.txt file
@@ -30,4 +30,8 @@ for problem_id in problem_ids:
 
     # Create empty out.txt file
     with open(os.path.join(folder_name, 'out.txt'), 'w'):
+        pass
+
+    # Create empty generator.cc file
+    with open(os.path.join(folder_name, 'generator.cc'), 'w'):
         pass

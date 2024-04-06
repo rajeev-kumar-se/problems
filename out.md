@@ -1,0 +1,1 @@
+g++ -std=c++20 -o out code.cpp && ./out < in.txt > out.txt;
