@@ -1,3 +1,10 @@
+/*
+Given a range [l, r]. The task is to count the numbers in the range having difference between the sum of digits at even position and sum of digits at odd position is a Prime Number. Consider the position of least significant digit in the number as an odd position.
+Input : l = 1, r = 50
+Output : 6
+Explanation : Only, 20, 30, 31, 41, 42 and 50 are valid numbers. 
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
